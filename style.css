@@ -31,7 +31,6 @@ body {
     height: calc(96px + 1vw);
     width: 100%;
     background-color: rgba(0, 0, 0, 0.33);
-    padding: 12px;
 }
 
 @font-face {
@@ -42,12 +41,14 @@ body {
 .logo-img {
     display: flex;
     height: 100%;
+    padding: 12px;
 }
 
 .banner > h1 {
     font-family: norse-bold, sans-serif;
     color: white;
     font-size: calc(64px + 1vw);
+    padding: 12px;
 }
 
 .background-img {
