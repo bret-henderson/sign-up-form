@@ -26,10 +26,11 @@ body {
     padding: 12px;
 }
 
-@font-face {
+/* norse-bold font does not center vertically */
+/* @font-face {
     font-family: norse-bold;
     src: url(fonts/Norse-Bold.otf);
-}
+} */
 
 .logo-img {
     height: 100%;
