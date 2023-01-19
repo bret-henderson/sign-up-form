@@ -26,13 +26,13 @@ body {
     padding: 12px;
 }
 
-@font-face {
+/* @font-face {
     font-family: norse-bold;
     src: url(fonts/Norse-Bold.otf);
-}
+} */
 
 .logo-img {
-    display: flex;
+    /* display: flex; */
     height: 100%;
 }
 
