@@ -4,6 +4,14 @@
     box-sizing: border-box;   
 }
 
+/* html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+} */
+
 body {
     width: 100%;
     background-color: #f9fafb;
@@ -22,7 +30,6 @@ body {
     height: calc(96px + 1vw);
     width: 100%;
     background-color: rgba(0, 0, 0, 0.33);
-    font-size: calc(30px + 1vw);
     padding: 12px;
 }
 
@@ -31,13 +38,15 @@ body {
     src: url(fonts/Norse-Bold.otf);
 }
 
+.logo-img {
+    display: flex;
+    height: 100%;
+}
+
 .banner > h1 {
     font-family: norse-bold, sans-serif;
     color: white;
-}
-
-.logo-img {
-    height: 100%;
+    font-size: calc(64px + 1vw);
 }
 
 .background-img {
