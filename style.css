@@ -4,14 +4,6 @@
     box-sizing: border-box;   
 }
 
-/* html {
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-} */
-
 body {
     width: 100%;
     background-color: #f9fafb;
@@ -31,6 +23,7 @@ body {
     height: calc(96px + 1vw);
     width: 100%;
     background-color: rgba(0, 0, 0, 0.33);
+    padding: 12px;
 }
 
 @font-face {
@@ -41,14 +34,13 @@ body {
 .logo-img {
     display: flex;
     height: 100%;
-    padding: 12px;
 }
 
 .banner > h1 {
     font-family: norse-bold, sans-serif;
     color: white;
     font-size: calc(64px + 1vw);
-    padding: 12px;
+    height: 100%;
 }
 
 .background-img {
@@ -136,6 +128,10 @@ button {
     margin-bottom: 32px;
 }
 
+input:invalid {
+    border: 1px solid rgb(255, 69, 100)
+}
+
 .error-msg {
     color: darkred;
     font-size: .9rem;
@@ -155,19 +151,4 @@ button {
         width: 50vw;
     }
 
-}
-
-input:invalid {
-    border: 1px solid rgb(255, 69, 100)
-}
-  
-/* input:valid {
-    border: rgb(0, 183, 255) 2px solid;
-} */
-  
-.error {
-    font-family: customFontBold;
-    font-size: .7rem;
-    color: rgb(255, 69, 100);
-    position: absolute;
 }
