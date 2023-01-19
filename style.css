@@ -6,14 +6,14 @@
 
 body {
     width: 100%;
+    background-color: #f9fafb;
 }
 
 .main {
-    background-color: #f9fafb;
     width: 100%;
 }
 
-header {
+.banner {
     position: absolute;
     top: 33%;
     display: flex;
@@ -31,18 +31,13 @@ header {
     src: url(fonts/Norse-Bold.otf);
 }
 
-header > h1 {
+.banner > h1 {
     font-family: norse-bold, sans-serif;
     color: white;
-    /* height: 100%; */
-    margin: 0;
-    padding: 0;
 }
 
 .logo-img {
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 .background-img {
@@ -94,7 +89,6 @@ header > h1 {
 }
 
 .form-row {
-    margin-bottom: 32px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -131,9 +125,10 @@ button {
     margin-bottom: 32px;
 }
 
-.mismatched-message {
+.error-msg {
     color: darkred;
     font-size: .9rem;
+    height: 32px;
 }
 
 @media only screen and (min-width: 850px) {

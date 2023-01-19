@@ -11,10 +11,10 @@
 <body>
     <div class="header-container">
         <img class="background-img" src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="leaves"/>
-        <header>
+        <div class="banner">
             <img class="logo-img" src="images/odin-lined.png" alt="odin-lined"/>
             <h1>ODIN</h1>
-        </header>
+        </div>
         <footer class="img-credit">Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank" rel="noopener noreferrer">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA" target="_blank" rel="noopener noreferrer">Unsplash</a></footer>
     </div>
     <section class="main">
@@ -30,31 +30,36 @@
                         <div class="form-row">
                             <label for="first-name">FIRST NAME</label>
                             <input id="first-name" name="first-name" type="text" minlength="1">
+                            <div class="error-msg"></div>
                         </div>
                         <div class="form-row">
                             <label for="last-name">LAST NAME</label>
                             <input id="last-name" name="last-name" type="text">
+                            <div class="error-msg"></div>
                         </div>
                     </div>
                     <div class="email-phone-container">
                         <div class="form-row">
                             <label for="email">EMAIL</label>
                             <input id="email" name="email" type="email">
+                            <div class="error-msg"></div>
                         </div>
                         <div class="form-row">
                             <label for="phone-number">PHONE NUMBER</label>
-                            <input id="phone-number" name="phone-number" type="tel" minLength="10">
+                            <input id="phone-number" name="phone-number" type="tel" pattern="[0-9]{10}">
+                            <div class="error-msg"></div>
                         </div>
                     </div>
                     <div class="pass-confirm-container">
                         <div class="form-row">
                             <label for="password">PASSWORD</label>
                             <input id="password" name="password" type="password">
+                            <div class="error-msg"></div>
                         </div>
                         <div class="form-row">
                             <label for="confirm-password">CONFIRM PASSWORD</label>
                             <input id="confirm-password" name="confirm-password" type="password">
-                            <div class="mismatched-message">*Passwords do not match</div>
+                            <div class="error-msg"></div>
                         </div>
                     </div>
                 </div>
