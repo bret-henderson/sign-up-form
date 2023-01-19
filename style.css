@@ -146,7 +146,8 @@ input:invalid {
 
     .header-container {
         display: flex;
-        height: 100vh;
+        height: auto;
+        min-height: 100vh;
         width: 50vw;
     }
 }
