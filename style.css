@@ -11,6 +11,7 @@ body {
 
 .main {
     width: 100%;
+
 }
 
 .banner {
@@ -125,7 +126,6 @@ button {
 .log-in {
     font-size: 1rem;
     margin-left: 16px;
-    margin-bottom: 32px;
 }
 
 input:invalid {
@@ -146,11 +146,7 @@ input:invalid {
 
     .header-container {
         display: flex;
-        min-height: 100vh;            /* fall-back */
-        min-height: -moz-available;
-        min-height: -webkit-fill-available;
-        min-height: fill-available;
-        height: 100vh;
+        height: 100dvh;
         width: 50vw;
     }
 }
