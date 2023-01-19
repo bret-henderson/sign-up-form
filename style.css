@@ -144,8 +144,17 @@ input:invalid {
         display: flex;
     }
 
+    /* .header-container {
+        position: relative;
+        display: flex;
+        height: 100vh;
+        width: 50vw;
+    } */
+
     .header-container {
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 100vh;
         width: 50vw;
