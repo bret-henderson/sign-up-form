@@ -72,7 +72,7 @@ body {
 }
 
 .text-container {
-    padding: 0px 16px;
+    padding: 0px 32px;
     margin: 16px 0px;
     font-size: 1.5em;
 }
@@ -84,11 +84,11 @@ body {
 .input-header {
     font-size: 1.5rem;
     margin-bottom: 24px;
-    padding: 16px;
+    padding: 16px 32px;
 }
 
 .input-top {
-    padding: 16px;
+    padding: 32px 32px 16px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -102,8 +102,8 @@ body {
     border: 1px solid #D6D9DC;
     border-radius: 3px;
     width: 100%;
-    max-width: 400px;
-    padding: 7px;
+    max-width: 360px;
+    padding: 8px;
     font-size: 1rem;
 }
 
@@ -120,12 +120,12 @@ button {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
     font-size: 1.25rem;
     padding: 16px 64px;
-    margin: 48px 16px 32px 16px;
+    margin: 48px 32px 32px 32px;
 }
 
 .log-in {
     font-size: 1rem;
-    margin-left: 16px;
+    margin-left: 32px;
 }
 
 input:invalid {
@@ -149,5 +149,25 @@ input:invalid {
         height: auto;
         min-height: 100vh;
         width: 50vw;
+    }
+
+    .form-row {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .email-phone-container {
+        display: flex;
+        gap: 32px;
+    }
+
+    .first-last-container {
+        display: flex;
+        gap: 32px;
+    }
+
+    .pass-confirm-container {
+        display: flex;
+        gap: 32px;
     }
 }
