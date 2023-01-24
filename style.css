@@ -5,18 +5,16 @@
 }
 
 body {
-    width: 100%;
     background-color: #f9fafb;
 }
 
 .main {
-    width: 100%;
     margin-bottom: 32px;
 }
 
 .banner {
     position: absolute;
-    top: 33%;
+    top: 25%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -102,7 +100,7 @@ body {
     border: 1px solid #D6D9DC;
     border-radius: 3px;
     width: 100%;
-    max-width: 360px;
+    max-width: 400px;
     padding: 8px;
     font-size: 1rem;
 }
@@ -120,6 +118,11 @@ button {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
     font-size: 1.25rem;
     padding: 16px 64px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.button-container {
     margin: 48px 16px 32px;
 }
 
@@ -153,21 +156,17 @@ input:invalid {
 
     .form-row {
         width: 100%;
-        max-width: 360px;
+        max-width: 400px;
     }
 
-    .email-phone-container {
-        display: flex;
-        gap: 32px;
-    }
-
-    .first-last-container {
-        display: flex;
-        gap: 32px;
-    }
-
+    .email-phone-container,
+    .first-last-container,
     .pass-confirm-container {
         display: flex;
         gap: 32px;
+    }
+
+    .button-container {
+        width: calc(50% - 32px);
     }
 }
