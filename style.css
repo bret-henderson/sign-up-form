@@ -117,7 +117,7 @@ button {
     border: none;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
     font-size: 1.25rem;
-    padding: 16px 64px;
+    padding: 16px;
     width: 100%;
     max-width: 400px;
 }
