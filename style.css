@@ -38,8 +38,9 @@ body {
 .banner > h1 {
     font-family: norse-bold, sans-serif;
     color: white;
-    font-size: calc(64px + 1vw);
-    height: 100%;
+    font-size: min(4rem, 20vw);
+    display:flex;
+    align-items: center;
 }
 
 .header-container {
